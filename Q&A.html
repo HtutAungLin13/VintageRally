@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="sheet.css">
+	<title>Q&A</title>
+</head>
+<body>
+<header>
+ 	
+ 	<div class="navbar">
+
+ 			<div class="logo">
+				<nav>
+					<a href="Home.html"><img src="car/l.jpg" width="75px" /></a>
+				</nav>
+			</div>
+			
+			<nav>
+				<ul>
+					<li><a href="Home.html">Home</a></li>
+					<li><a href="Contact Us.html">Contact Us</a></li>
+					<li><a href="About Us.html">About Us</a></li>
+					<li><a href="Register.html">Register</a></li>
+					<li><a href="Q&A.html">Q&A</a></li>
+					<li><a href="OurDrivers.html">Our Drivers</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<form><div class="bar"> 
+
+  </i><input type="text" name="search" placeholder="Search.."></div></form>
+
+<h2 style="margin: 25px;">Frequently asked questions</h2>
+
+<button class="accordion">How do you define a classic vehicle?</button>
+<div class="panel">
+  <p>Unlike veteran cars there is no agreed timescales for a ‘classic’ vehicle. <br>Definitions vary by organiser, insurance companies and the DVLA. <br>We define a classic vehicle as being over 20 years old, but we are always flexible if you drive something you love, and which we think our visitors would like to see.<br>
+My car is newer than 2000 – Can I still display my vehicle?
+</p>
+</div>
+
+<button class="accordion">I would like to compete in vintage rally events. How do I start?</button>
+<div class="panel">
+  <p>Click HERE<a href="Home.html" style="color: black;">Home</a>to visit our Join In pages, which include our comprehensive guide to competing with the Club.<br> The guide includes information on the equipment and licences required for each Motorsport discipline on offer with the VSCC.
+</p>
+</div>
+
+<button class="accordion">How much does it cost?</button>
+<div class="panel">
+  <p>Different price options are available, for those that have a reduced budget or wish to look for the best accomodation themselves, or for those that do not want to bother with those kind of details and prefer the organization to offer a complete package:<br>
+
+Full Raid:
+Option 1: 1.100 €. One night in hotel with breakfast and parking in Seville. Rest free.<br>
+
+Option 2: 2.100 €. Breakfast , parking and nights in hotel at all stages.<br>
+
+Half Raid (Barcelona-Madrid or Madrid-Seville)
+Option 1: 650 €. 1 night in hotel with breakfast and parking. Rest free.<br>
+
+Option 2: 1.250 €. Breakfast, parking and nights in hotel at all stages.<br>
+
+Single stage: 170 Euros.<br>
+
+Apart from these options the organization offers complementary services like for example car rental for participants interested in renting a completely equipped car instead of using or preparing their own.</p>
+</div>
+
+<button class="accordion">Who organises the event?</button>
+<div class="panel">
+  <p>The event is being organised by Agrupación Deportiva Etcétera, registered in Madrid since 1993. Etcétera is also licensed by the Real Federación Española de Automovilismo (Royal Spanish Federation for Car Sports).<br>
+
+One of its most representative events is the San Martin Rally, first held in 1996, and which counted towards the championships of the regions of Madrid, Extremadura, Castilla-Leon and Castilla-La Mancha.<br> In 2016, apart from Spain Classic Raid, we will also organise the first three rallies for the IV Regularity Open, among which the third edition of Entre Valles.
+</p>
+</div>
+
+<button class="accordion">What do you need to participate?</button>
+<div class="panel">
+  <p>A classic car of at least 25 years old (manufacturing date) that has a fire extinguisher, flaps over the rear wheels and a safety tool to break windows and cut seatbelts.<br>
+
+Exceptionally the registration of vehicles that have not yet reached this age is permitted, if the model of the car were manufactured over 25 years ago.<br> An example: a Seat Panda or Marbella from 1993; this does not reach the required age until 2018, but since the model Panda is a classic, this car is allowed to participate.<br>
+
+The driver needs to have a valid driver’s licence and the car needs to be insured and have passed the vehicle safety inspection.<br>
+</p>
+</div>
+
+<button class="accordion">How do I know if my entry has been received/accepted?</button>
+<div class="panel">
+  <p>If you enter online you will receive an acknowledgment of your entry almost straight away by email to your registered email address. If you sent your entry form to the Office you will receive an acknowledgement by post within 7 days.<br>
+
+Your entry acknowledgement will advise if your entry status is CONFIRMED or PENDING. The Regulations for each event will stipulate the percentage of the maximum entry which is allocated on a first come first served basis. If you are in this percentage your entry is CONFIRMED, which means you are guaranetted an entry for the event. If you are in the final number of entries and your confirmation email or card advises a PENDING status, this means that shoudl the event become over subscribed you will be subject to the VSCC selection process.<br> 
+</p>
+</div>
+
+<div class="col-3" style="margin-left: 50%;" >
+<form name="Contact" action="#">
+			<table >
+			<tr>
+				<td >Question
+					<td><textarea name="Message" placeholder="Ask Anything "></textarea></td>
+				</td>
+			</tr>
+
+			<tr>
+				<td >Comment area
+					<td><textarea name="Message" placeholder="Comment "></textarea></td>
+				</td>
+			</tr>
+				<tr>
+				<td>
+					<input type="submit" value="SUBMIT" name="signup">
+				</td>
+			</tr>
+</table>
+</form></div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+<footer>
+	<div class="footer">
+  		<h3>
+  			Copy Right &copy;http://search.creativecommons.org/<br>
+  		<a href="http://www.Facebook.com">FaceBook</a>/
+     	<a href="http://www.Twitter.com">Twitter</a>/
+     	<a href="http://www.Instagram.com">Instagram</a>/
+  		</h3> 			
+	</div>
+
+</footer>
+</body>
+</html>
